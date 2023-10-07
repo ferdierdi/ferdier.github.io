@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.navbar span a{
+    color: #00abf0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    transition: all;
+    transition-duration: 600ms;
+}
+.navbar span a:hover {
+    color: white;
+    border-bottom:1px solid white;
+}
+body {
+  background-color: #081b29;
+  
+}
+.header img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.header {
+  background-color: #081b29;
+  display: flex;
+  padding: 10px 10%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+.navbar a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #ddd;
+  transition: all;
+  transition-duration: 400ms;
+  border-bottom: 2px solid #00acf000;
+  padding: 5px;
+
+}
+.navbar a:hover {
+  color:#00abf0;
+  border-bottom: 2px solid #00abf0;
+}
+.content {
+  height: 100vh;
+  padding: 10% 10%;
+  color: #ddd;
+}
+h1 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 30px;
+  color: #00abf0;
+}
+p {
+  margin-top: 30px;
+  width: 500px;
+  letter-spacing: 1px;
+}
+.btn {
+  margin-top: 50px;
+}
+.satu {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #081b29;
+  background-color: #00abf0;
+  border: 2px solid #00acf000;
+  transition: all;
+  transition-duration: 600ms;
+}
+.satu:hover {
+    color: #fff;
+    background-color: #081b2900;
+    border: 2px solid #00acf0;
+}
+.dua {
+  margin-left: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #00acf000;
+  border: 2px solid #00abf0;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 600ms;
+  color: white;
+}
+.dua:hover {
+    background-color: #00abf0;
+    color: #081b29;
+}
+.icons {
+    margin-top: 70px;
+}
+.icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 18px;
+    border: 1px solid #00abf0;
+    margin-left: 1rem;
+    color: #00acf0;
+    transition: all;
+    transition-duration: 600ms;
+}
+.icons a:hover {
+    background-color: #00abf0;
+    color: #081b29;
+}
+.content .img img{
+  width: 350px;
+  height: 350px;
+  float: right;
+  margin-top: -200px;
+  border-radius: 100%;
+  margin-left: 100px;
+}
+.content-2{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
